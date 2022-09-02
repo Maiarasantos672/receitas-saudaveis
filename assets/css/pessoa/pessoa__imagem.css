@@ -18,5 +18,9 @@
 }
 
 .pessoa__imagem--maiara {
-    background-image: url('../../img/pessoas/MaiaraFoto.jpg');
+    background-image: url('../../img/pessoas/maiara.jpg');
+}
+
+.pessoa__imagem--giana {
+    background-image: url('../../img/pessoas/giana.jpg');
 }
