@@ -1,0 +1,25 @@
+.receita {
+    background-color: #FFFFFF;
+    display: inline-block;
+}
+
+@media screen and (min-width: 0) {
+    .receita {
+        margin: 30px 10px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receita {
+        margin: 30px 5%;
+        width: 39%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .receita {
+        margin: 30px 5%;
+        width: 22%;
+    }
+}

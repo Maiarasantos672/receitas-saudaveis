@@ -1,0 +1,19 @@
+.pessoa {
+    background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 0) {
+    .pessoa {
+        display: inline;
+        margin: 0;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoa {
+        display: inline-block;
+        margin: 0 5%;
+        width: 22%;
+    }
+}

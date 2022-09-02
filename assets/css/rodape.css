@@ -1,0 +1,35 @@
+footer{
+    background-color: rgb(10, 10, 66);
+}
+footer .container{
+    padding: 20px;
+}
+footer nav .info-contato {
+    list-style: none;
+}
+footer nav .info-contato li{
+    margin: 0 0 15px;
+}
+footer nav .info-contato li a{
+    color: white;
+    text-decoration: none;
+}
+footer nav .redes-sociais{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid ;
+    border-color: rgba(255, 255, 255, 0.472);
+    padding-top: 30px;
+    margin: 20px 0 15px;
+    list-style: none;
+}
+footer nav .redes-sociais li{
+    margin: 0 15px;
+    text-align: center;
+}
+footer nav .redes-sociais li a img{
+    max-height: 100px;
+}
+footer nav .redes-sociais li a p{
+    color:white;
+}

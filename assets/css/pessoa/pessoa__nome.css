@@ -1,0 +1,8 @@
+.pessoa__nome {
+    color: #8D0606;
+    display: block;
+    line-height: 63px;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    font-weight: 400;
+}

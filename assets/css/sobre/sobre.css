@@ -1,0 +1,17 @@
+.sobre {
+    text-align: center;
+}
+
+@media screen and (min-width: 0) {
+    .sobre {
+        margin: 25px;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        margin: auto;
+        padding: 2.5rem 0 0 0;
+    }
+}
