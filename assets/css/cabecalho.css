@@ -2,6 +2,7 @@
     align-items: center;
     background: #FFFFFF;
     display: flex;
+    width: 100%;
 }
 
 @media screen and (min-width: 0) {
@@ -12,6 +13,6 @@
 
 @media screen and (min-width: 768px) {
     .cabecalho {
-        justify-content: space-between;
+        justify-content: flex-end;
     }
 }

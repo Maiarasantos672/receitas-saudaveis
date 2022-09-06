@@ -1,35 +1,37 @@
-footer{
-    background-color: rgb(10, 10, 66);
+.rodape{
+    background-color: #8D0606;
 }
-footer .container{
+
+.rodape .contato{
     padding: 20px;
 }
-footer nav .info-contato {
+
+.rodape nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape nav .contato__info {
     list-style: none;
 }
-footer nav .info-contato li{
+
+.rodape nav .contato__info li{
     margin: 0 0 15px;
 }
-footer nav .info-contato li a{
+
+.rodape nav .contato__info li a{
     color: white;
     text-decoration: none;
 }
-footer nav .redes-sociais{
-    display: flex;
-    justify-content: center;
-    border-top: 2px solid ;
-    border-color: rgba(255, 255, 255, 0.472);
-    padding-top: 30px;
-    margin: 20px 0 15px;
-    list-style: none;
+
+@media screen and (min-width: 0) {
+    .rodape nav{
+        flex-direction: column;
+    }
 }
-footer nav .redes-sociais li{
-    margin: 0 15px;
-    text-align: center;
-}
-footer nav .redes-sociais li a img{
-    max-height: 100px;
-}
-footer nav .redes-sociais li a p{
-    color:white;
+
+@media screen and (min-width: 768px) {
+    .rodape nav{
+        flex-direction: row;
+    }
 }
