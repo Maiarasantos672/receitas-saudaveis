@@ -8,11 +8,13 @@
 
 .rodape nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .rodape nav .contato__info {
     list-style: none;
+    width: 22%;
+    min-width: 375px;
 }
 
 .rodape nav .contato__info li{
@@ -28,10 +30,16 @@
     .rodape nav{
         flex-direction: column;
     }
+    .rodape nav .contato__info li {
+        text-align: left;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .rodape nav{
         flex-direction: row;
+    }
+    .rodape nav .contato__info li {
+        text-align: center;
     }
 }

@@ -17,8 +17,8 @@
 @media screen and (min-width: 768px) {
     .pessoa {
         display: inline-block;
-        margin: 0 5%;
         width: 22%;
+        min-width: 375px;
     }
 
     .pessoa:nth-child(1) {

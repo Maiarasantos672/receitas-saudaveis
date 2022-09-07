@@ -44,7 +44,7 @@
         <header class="cabecalho">
             <nav class="menu">
                 <ul class="menu__lista">
-                    <li class="menu__item"><a class="menu__link" href="#inicio">Início</a></li>
+                    <li class="menu__item"><a class="menu__link" href="">Menu</a></li>
                     <li class="menu__item"><a class="menu__link" href="#receitas">Receitas</a></li>
                     <li class="menu__item"><a class="menu__link" href="#quemsomos">Quem Somos</a></li>
                     <li class="menu__item"><a class="menu__link" href="#contato">Contato</a></li>
@@ -53,7 +53,7 @@
         </header>
         <main>
             <section class="banner">
-                <div class="banner__imagem"><a name="inicio"></a></div>
+                <div class="banner__imagem"></div>
                 <h1 class="banner__titulo">O saudável pode ser delicioso!</h1>
             </section>
             <section class="sobre">
@@ -61,8 +61,11 @@
                 <p class="sobre__descricao">Essas receitas ajudarão você a aproveitar o melhor de cada alimento,
                      se alimentar bem incluindo todos os grupos nutricionais nas principais refeições do dia 
                      e ainda te farão ganhar tempo e praticidade</p>
+                     
             </section>
+            
             <section class="receitas">
+                <a name="receitas" style="opacity: 0">.</a>
                 <div class="receita">
                     <img alt="Panqueca de banana com rodelas de bananas no meio, em cima de um prato branco e mesa de madeira" class="receita__imagem" src="./assets/img/receitas/panqueca-de-banana.jpg" />
                     <div class="receita__conteudo">
@@ -112,7 +115,7 @@
                     </div>
                 </div>
                 <div class="receita">
-                    <img alt="" class="receita__imagem" src="./assets/img/receitas/vitamina-especial.jpg" />
+                    <img alt="" class="receita__imagem" src="./assets/img/receitas/picole.jpg" />
                     <div class="receita__conteudo">
                         <h3 class="receita__titulo">Picolé com 2 ingredientes</h3>
                         <p class="receita__descricao">Teste de descrição temporário para que os demais elementos sejam observados</p>
@@ -120,7 +123,7 @@
                     </div>
                 </div>
                 <div class="receita">
-                    <img alt="" class="receita__imagem" src="./assets/img/receitas/vitamina-especial.jpg" />
+                    <img alt="" class="receita__imagem" src="./assets/img/receitas/crispy-de-maca.jpg" />
                     <div class="receita__conteudo">
                         <h3 class="receita__titulo">Crispy de maçã com canela</h3>
                         <p class="receita__descricao">Teste de descrição temporário para que os demais elementos sejam observados</p>
@@ -128,7 +131,7 @@
                     </div>
                 </div>
                 <div class="receita">
-                    <img alt="" class="receita__imagem" src="./assets/img/receitas/vitamina-especial.jpg" />
+                    <img alt="" class="receita__imagem" src="./assets/img/receitas/overnight-chocolate.jpg" />
                     <div class="receita__conteudo">
                         <h3 class="receita__titulo">Overnight oats de chocolate</h3>
                         <p class="receita__descricao">Teste de descrição temporário para que os demais elementos sejam observados</p>
@@ -136,7 +139,7 @@
                     </div>
                 </div>
                 <div class="receita">
-                    <img alt="" class="receita__imagem" src="./assets/img/receitas/vitamina-especial.jpg" />
+                    <img alt="" class="receita__imagem" src="./assets/img/receitas/crepes-chocolate.jpg" />
                     <div class="receita__conteudo">
                         <h3 class="receita__titulo">Crepes de chocolate</h3>
                         <p class="receita__descricao">Teste de descrição temporário para que os demais elementos sejam observados</p>
@@ -144,7 +147,7 @@
                     </div>
                 </div>
                 <div class="receita">
-                    <img alt="" class="receita__imagem" src="./assets/img/receitas/vitamina-especial.jpg" />
+                    <img alt="" class="receita__imagem" src="./assets/img/receitas/cookie-saudavel.jpg" />
                     <div class="receita__conteudo">
                         <h3 class="receita__titulo">Cookies saudáveis</h3>
                         <p class="receita__descricao">Teste de descrição temporário para que os demais elementos sejam observados</p>
@@ -152,7 +155,7 @@
                     </div>
                 </div>
                 <div class="receita">
-                    <img alt="" class="receita__imagem" src="./assets/img/receitas/vitamina-especial.jpg" />
+                    <img alt="" class="receita__imagem" src="./assets/img/receitas/tortinha-de-maca.jpg" />
                     <div class="receita__conteudo">
                         <h3 class="receita__titulo">Tortinha de maçã</h3>
                         <p class="receita__descricao">Teste de descrição temporário para que os demais elementos sejam observados</p>
@@ -160,7 +163,7 @@
                     </div>
                 </div>
                 <div class="receita">
-                    <img alt="" class="receita__imagem" src="./assets/img/receitas/vitamina-especial.jpg" />
+                    <img alt="" class="receita__imagem" src="./assets/img/receitas/panqueca-americana.jpg" />
                     <div class="receita__conteudo">
                         <h3 class="receita__titulo">Panqueca americana saudável</h3>
                         <p class="receita__descricao">Teste de descrição temporário para que os demais elementos sejam observados</p>
@@ -202,6 +205,7 @@
                              <a href="mailto:maiarasantos672@gmail.com"><strong>E-mail:</strong> maiarasantos672@gmail.com</a>
                           </li>
                        </ul>
+                       <div class="contato__info__espaco"></div>
                        <ul class="contato__info contato__info--giana">
                         <li>
                            <a href="https://api.whatsapp.com/send?phone=5541999834499"><strong>Whatsapp:</strong> (41)99983-4499</a>
@@ -455,7 +459,8 @@
                         <ol class="modal__itens">
                             <li>Em um bowl misture o ovo, o mel, a tapioca, a essência de baunilha, o leite e o cacau em pó até ficar homogêneo;</li>
                             <li>Leve a uma frigideira untada e, com a ajuda de uma concha, despeje a massa e espere ela soltar;</li>
-                            <li>Recheie seus crepes com a caldinha e pode se deliciar.</li>
+                            <li>Misture os ingredientes da calda com um pouco de água até atingir a consistência desejada</li>
+                            <li>Despeje a caldinha nos seus crepes e pode se deliciar.</li>
                         </ol>
                     </div>
                 </div>
