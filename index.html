@@ -33,6 +33,12 @@
         <link href="./assets/css/pessoa/pessoa__nome.css" rel="stylesheet" />
         <link href="./assets/css/pessoa/pessoa__funcao.css" rel="stylesheet" />
         <link href="./assets/css/rodape.css" rel="stylesheet" >
+        <link href="./assets/css/modal__receita.css" rel="stylesheet" >
+        <link href="./assets/css/modal/modal.css" rel="stylesheet" >
+        <link href="./assets/css/modal/modal__fechar.css" rel="stylesheet" >
+        <link href="./assets/css/modal/modal__itens.css" rel="stylesheet" >
+        <link href="./assets/css/modal/modal__subtitulo.css" rel="stylesheet" >
+        <link href="./assets/css/modal/modal__titulo.css" rel="stylesheet" >
     </head>
     <body>
         <header class="cabecalho">
@@ -48,10 +54,10 @@
         <main>
             <section class="banner">
                 <div class="banner__imagem"><a name="inicio"></a></div>
-                <h2 class="banner__titulo">O saudável pode ser delicioso!</h2>
+                <h1 class="banner__titulo">O saudável pode ser delicioso!</h1>
             </section>
             <section class="sobre">
-                <h3 class="sobre__titulo">Receitas para se alimentar bem todos os dias<a name="receitas"></a></h3>
+                <h2 class="sobre__titulo">Receitas para se alimentar bem todos os dias<a name="receitas"></a></h2>
                 <p class="sobre__descricao">Essas receitas ajudam você a aproveitar o melhor de cada alimento,
                      se alimentar bem incluindo todos os grupos nutricionais nas principais refeições do dia 
                      e ainda te ajudam a ganhar tempo e praticidade</p>
@@ -60,7 +66,7 @@
                 <div class="receita">
                     <img alt="Panqueca de banana" class="receita__imagem" src="./assets/img/receitas/panqueca-de-banana.jpg" />
                     <div class="receita__conteudo">
-                        <h4 class="receita__titulo">Panqueca de banana</h4>
+                        <h3 class="receita__titulo">Panqueca de banana</h3>
                         <p class="receita__descricao">O café da manhã precisa ser prático e com todos os grupos nutricionais como este.</p>
                         <button class="receita__botao">Ver receita</button>
                     </div>
@@ -68,7 +74,7 @@
                 <div class="receita">
                     <img alt="Mingau de aveia com banana" class="receita__imagem" src="./assets/img/receitas/mingau-de-aveia-com-banana.jpg" />
                     <div class="receita__conteudo">
-                        <h4 class="receita__titulo">Mingau de aveia com banana</h4>
+                        <h3 class="receita__titulo">Mingau de aveia com banana</h3>
                         <p class="receita__descricao">O melhor mingau para aqueles dias de frio ou para um filminho debaixo das cobertas.</p>
                         <button class="receita__botao">Ver receita</button>
                     </div>
@@ -76,7 +82,7 @@
                 <div class="receita">
                     <img alt="Mousse de limão" class="receita__imagem" src="./assets/img/receitas/mousse-de-limao.jpg" />
                     <div class="receita__conteudo">
-                        <h4 class="receita__titulo">Mousse de limão</h4>
+                        <h3 class="receita__titulo">Mousse de limão</h3>
                         <p class="receita__descricao">Essa receita é ótima para os fans de sobremesas mais ácidas.</p>
                         <button class="receita__botao">Ver receita</button>
                     </div>
@@ -84,7 +90,7 @@
                 <div class="receita">
                     <img alt="Mousse de chocolate" class="receita__imagem" src="./assets/img/receitas/mousse-de-chocolate.jpg" />
                     <div class="receita__conteudo">
-                        <h4 class="receita__titulo">Mousse de chocolate</h4>
+                        <h3 class="receita__titulo">Mousse de chocolate</h3>
                         <p class="receita__descricao">Saudável e delicioso, pode ser sua sobremesa sem culpa.</p>
                         <button class="receita__botao">Ver receita</button>
                     </div>
@@ -92,7 +98,7 @@
                 <div class="receita">
                     <img alt="Snack de grão de bicol" class="receita__imagem" src="./assets/img/receitas/snack-grao-de-bico.jpg" />
                     <div class="receita__conteudo">
-                        <h4 class="receita__titulo">Snack de grão de bico</h4>
+                        <h3 class="receita__titulo">Snack de grão de bico</h3>
                         <p class="receita__descricao">Receita simples e prática para você ter um delicioso snack para beliscar durante o dia.</p>
                         <button class="receita__botao">Ver receita</button>
                     </div>
@@ -100,14 +106,14 @@
                 <div class="receita">
                     <img alt="Vitamina jacaré" class="receita__imagem" src="./assets/img/receitas/vitamina-especial.jpg" />
                     <div class="receita__conteudo">
-                        <h4 class="receita__titulo">Vitamina especial</h4>
+                        <h3 class="receita__titulo">Vitamina especial</h3>
                         <p class="receita__descricao">Receita rápida, prática e cheia de vitaminas para seu café da manhã.</p>
                         <button class="receita__botao">Ver receita</button>
                     </div>
                 </div>
             </section>
             <section class="quem-somos">
-                <h3 class="quem-somos__titulo">Quem somos<a name="quemsomos"></a></h3>
+                <h2 class="quem-somos__titulo">Quem somos<a name="quemsomos"></a></h2>
                 <p class="quem-somos__descricao">Conheça as responsáveis por trás desta iniciativa</p>
                 <div class="pessoas">
                     <div class="pessoa">
@@ -154,6 +160,49 @@
                     </nav>
                  </section>
             </footer>
+
+            <div id="modal__receita--panqueca-de-banana" class="modal__receita">
+                <div class="modal">
+                    <button class="modal__fechar">X</button>
+                    <h3 class="modal__titulo">Panqueca de Banana</h3>
+                    <div class="modal__ingredientes">
+                        <h4 class="modal__subtitulo">Ingredientes</h4>
+                        <ul class="modal__itens">
+                            <li>1 banana média;</li>
+                            <li>2 colheres (sopa) de farelo de aveia;</li>
+                            <li>1 ovo;</li>
+                            <li>Canela, chia e linhaça à gosto (opcional).</li>
+                        </ul>
+                    </div>
+                    <div class="modal__preparo">
+                        <h4 class="modal__subtitulo">Modo de preparo</h4>
+                        <ol class="modal__itens">
+                            <li>Amasse bem a banana com o auxílio de um garfo;</li>
+                            <li>Acrescente o ovo e misture bem;</li>
+                            <li>Coloque os demais ingredientes e mexa até obter uma massa homogênea;</li>
+                            <li>Leve ao fogo baixo em uma frigideira untada até que a panqueca desgrude do fundo, então vire-a e aguarde até que ela esteja no ponto de seu agrado.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                function iniciaModal(modalID) {
+                    const modal = document.getElementById(modalID);
+                    if(modal) {
+                        modal.classList.add('mostrar');
+                        modal.addEventListener('click', (e) => {
+                        if(e.target.id === modalID || e.target.className === 'modal__fechar') {
+                            modal.classList.remove('mostrar')
+                        }
+                    })
+                    }
+                }
+                const logo = document.querySelector('.receita__botao');
+                logo.addEventListener('click', () => iniciaModal('modal__receita--panqueca-de-banana'));
+            </script>
+
+
         </main>
     </body>
 </html>
