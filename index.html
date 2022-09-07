@@ -58,9 +58,9 @@
             </section>
             <section class="sobre">
                 <h2 class="sobre__titulo">Receitas para se alimentar bem todos os dias<a name="receitas"></a></h2>
-                <p class="sobre__descricao">Essas receitas ajudam você a aproveitar o melhor de cada alimento,
+                <p class="sobre__descricao">Essas receitas ajudarão você a aproveitar o melhor de cada alimento,
                      se alimentar bem incluindo todos os grupos nutricionais nas principais refeições do dia 
-                     e ainda te ajudam a ganhar tempo e praticidade</p>
+                     e ainda te farão ganhar tempo e praticidade</p>
             </section>
             <section class="receitas">
                 <div class="receita">
@@ -68,7 +68,7 @@
                     <div class="receita__conteudo">
                         <h3 class="receita__titulo">Panqueca de banana</h3>
                         <p class="receita__descricao">O café da manhã precisa ser prático e com todos os grupos nutricionais como este.</p>
-                        <button class="receita__botao">Ver receita</button>
+                        <button id="receita__botao--panqueca-de-banana" class="receita__botao">Ver receita</button>
                     </div>
                 </div>
                 <div class="receita">
@@ -76,7 +76,7 @@
                     <div class="receita__conteudo">
                         <h3 class="receita__titulo">Mingau de aveia com banana</h3>
                         <p class="receita__descricao">O melhor mingau para aqueles dias de frio ou para um filminho debaixo das cobertas.</p>
-                        <button class="receita__botao">Ver receita</button>
+                        <button id="receita__botao--mingau-de-aveia-com-banana" class="receita__botao">Ver receita</button>
                     </div>
                 </div>
                 <div class="receita">
@@ -84,7 +84,7 @@
                     <div class="receita__conteudo">
                         <h3 class="receita__titulo">Mousse de limão</h3>
                         <p class="receita__descricao">Essa receita é ótima para os fans de sobremesas mais ácidas.</p>
-                        <button class="receita__botao">Ver receita</button>
+                        <button id="receita__botao--mousse-de-limao" class="receita__botao">Ver receita</button>
                     </div>
                 </div>
                 <div class="receita">
@@ -92,23 +92,23 @@
                     <div class="receita__conteudo">
                         <h3 class="receita__titulo">Mousse de chocolate</h3>
                         <p class="receita__descricao">Saudável e delicioso, pode ser sua sobremesa sem culpa.</p>
-                        <button class="receita__botao">Ver receita</button>
+                        <button id="receita__botao--mousse-de-chocolate" class="receita__botao">Ver receita</button>
                     </div>
                 </div>
                 <div class="receita">
-                    <img alt="Snack de grão de bicol" class="receita__imagem" src="./assets/img/receitas/snack-grao-de-bico.jpg" />
+                    <img alt="Snack de grão de bico" class="receita__imagem" src="./assets/img/receitas/snack-grao-de-bico.jpg" />
                     <div class="receita__conteudo">
                         <h3 class="receita__titulo">Snack de grão de bico</h3>
                         <p class="receita__descricao">Receita simples e prática para você ter um delicioso snack para beliscar durante o dia.</p>
-                        <button class="receita__botao">Ver receita</button>
+                        <button id="receita__botao--snack-de-grao-de-bico" class="receita__botao">Ver receita</button>
                     </div>
                 </div>
                 <div class="receita">
-                    <img alt="Vitamina jacaré" class="receita__imagem" src="./assets/img/receitas/vitamina-especial.jpg" />
+                    <img alt="Vitamina especial" class="receita__imagem" src="./assets/img/receitas/vitamina-especial.jpg" />
                     <div class="receita__conteudo">
                         <h3 class="receita__titulo">Vitamina especial</h3>
                         <p class="receita__descricao">Receita rápida, prática e cheia de vitaminas para seu café da manhã.</p>
-                        <button class="receita__botao">Ver receita</button>
+                        <button id="receita__botao--vitamina-especial" class="receita__botao">Ver receita</button>
                     </div>
                 </div>
             </section>
@@ -186,6 +186,123 @@
                 </div>
             </div>
 
+            <div id="modal__receita--mingau-de-aveia-com-banana" class="modal__receita">
+                <div class="modal">
+                    <button class="modal__fechar">X</button>
+                    <h3 class="modal__titulo">Mingau de aveia com banana</h3>
+                    <div class="modal__ingredientes">
+                        <h4 class="modal__subtitulo">Ingredientes</h4>
+                        <ul class="modal__itens">
+                            <li>1 banana média;</li>
+                            <li>200ml de leite;</li>
+                            <li>1 colher (sopa) de farelo de aveia;</li>
+                            <li>1 colher de mel (opcional);</li>
+                            <li>15g de whey (opcional).</li>
+                            <li>Canela, chia e linhaça à gosto (opcional);</li>
+                        </ul>
+                    </div>
+                    <div class="modal__preparo">
+                        <h4 class="modal__subtitulo">Modo de preparo</h4>
+                        <ol class="modal__itens">
+                            <li>Adicione o leite, a aveia e o mel em uma panela e leve ao fogo baixo;</li>
+                            <li>Quando você notar que está chegando perto de ferver, adicione a banana 
+                                picada em rodelas finas e mexa bem até que elas quase derretam (pode 
+                                manter no fogo após começar a ferver para que elas derretam melhor);</li>
+                            <li>Após desligar o fogo, adicione os ingredientes opcionais e misture bem.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div id="modal__receita--mousse-de-limao" class="modal__receita">
+                <div class="modal">
+                    <button class="modal__fechar">X</button>
+                    <h3 class="modal__titulo">Mousse de limão</h3>
+                    <div class="modal__ingredientes">
+                        <h4 class="modal__subtitulo">Ingredientes</h4>
+                        <ul class="modal__itens">
+                            <li>1 pote de iogurte natural (170g);</li>
+                            <li>15g de Whey de baunilha ou 1/2 xícara de leite em pó;</li>
+                            <li>1/2 limão.</li>
+                        </ul>
+                    </div>
+                    <div class="modal__preparo">
+                        <h4 class="modal__subtitulo">Modo de preparo</h4>
+                        <ol class="modal__itens">
+                            <li>Misture todos os ingredientes em um pote e está pronto!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div id="modal__receita--mousse-de-chocolate" class="modal__receita">
+                <div class="modal">
+                    <button class="modal__fechar">X</button>
+                    <h3 class="modal__titulo">Mousse de chocolate</h3>
+                    <div class="modal__ingredientes">
+                        <h4 class="modal__subtitulo">Ingredientes</h4>
+                        <ul class="modal__itens">
+                            <li>1 pote de iogurte natural (170g);</li>
+                            <li>15g de Whey de baunilha ou 1/2 xícara de leite em pó;</li>
+                            <li>1 colher (sopa) de cacau em pó.</li>
+                        </ul>
+                    </div>
+                    <div class="modal__preparo">
+                        <h4 class="modal__subtitulo">Modo de preparo</h4>
+                        <ol class="modal__itens">
+                            <li>Misture todos os ingredientes em um pote e está pronto!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div id="modal__receita--snack-de-grao-de-bico" class="modal__receita">
+                <div class="modal">
+                    <button class="modal__fechar">X</button>
+                    <h3 class="modal__titulo"></h3>
+                    <div class="modal__ingredientes">
+                        <h4 class="modal__subtitulo">Ingredientes</h4>
+                        <ul class="modal__itens">
+                            <li>2 xícaras de grão de bico;</li>
+                            <li>2L de água;</li>
+                            <li>Um fio de azeite de oliva;</li>
+                            <li>Páprica defumada, pimenta do reino, orégano, sal e temperos de sua preferência à gosto.</li>
+                        </ul>
+                    </div>
+                    <div class="modal__preparo">
+                        <h4 class="modal__subtitulo">Modo de preparo</h4>
+                        <ol class="modal__itens">
+                            <li>Deixe o grão de bico imerso em água (de molho) por pelo menos 12h, trocando a água duas ou três vezes neste meio tempo;</li>
+                            <li>Escorra bem a água e adicione o azeite e os demais temperos selecionados nos grãos, misturando bem até que todos estejam bem cobertos (sugiro que utilizem um plástico para misturar tudo sem sujar as mãos);</li>
+                            <li>Leve o grão de bico bem distribuído em uma forma ao forno em 200ºC até que eles fiquem bem crocantes (em média de uns 40min).</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div id="modal__receita--vitamina-especial" class="modal__receita">
+                <div class="modal">
+                    <button class="modal__fechar">X</button>
+                    <h3 class="modal__titulo"></h3>
+                    <div class="modal__ingredientes">
+                        <h4 class="modal__subtitulo">Ingredientes</h4>
+                        <ul class="modal__itens">
+                            <li>10 morangos (congelados ou naturais);</li>
+                            <li>1 maçã média;</li>
+                            <li>1 banana;</li>
+                            <li>200ml de leite;</li>
+                            <li>1 colher (sopa) de farelo de linhaça (opcional).</li>
+                        </ul>
+                    </div>
+                    <div class="modal__preparo">
+                        <h4 class="modal__subtitulo">Modo de preparo</h4>
+                        <ol class="modal__itens">
+                            <li>Bata todos os ingredientes no liquidificador ou em um mixer e está pronto!!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
             <script>
                 function iniciaModal(modalID) {
                     const modal = document.getElementById(modalID);
@@ -198,10 +315,13 @@
                     })
                     }
                 }
-                const logo = document.querySelector('.receita__botao');
-                logo.addEventListener('click', () => iniciaModal('modal__receita--panqueca-de-banana'));
+                document.querySelector('#receita__botao--panqueca-de-banana').addEventListener('click', () => iniciaModal('modal__receita--panqueca-de-banana'));
+                document.querySelector('#receita__botao--mingau-de-aveia-com-banana').addEventListener('click', () => iniciaModal('modal__receita--mingau-de-aveia-com-banana'));
+                document.querySelector('#receita__botao--mousse-de-limao').addEventListener('click', () => iniciaModal('modal__receita--mousse-de-limao'));
+                document.querySelector('#receita__botao--mousse-de-chocolate').addEventListener('click', () => iniciaModal('modal__receita--mousse-de-chocolate'));
+                document.querySelector('#receita__botao--snack-de-grao-de-bico').addEventListener('click', () => iniciaModal('modal__receita--snack-de-grao-de-bico'));
+                document.querySelector('#receita__botao--vitamina-especial').addEventListener('click', () => iniciaModal('modal__receita--vitamina-especial'));
             </script>
-
 
         </main>
     </body>
